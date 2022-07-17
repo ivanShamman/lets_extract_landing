@@ -1,0 +1,28 @@
+.internet-clients{
+  padding: $block-margin 0;
+  background-color: $blue-bg-color;
+  color: $white-color;
+  &__title{
+    max-width: 400px;
+    margin-bottom: 20px;
+    h2{
+      margin-bottom: 15px;
+    }
+    p{
+      font-size: $font-lg-size;
+      font-weight: $font-semibold;
+      line-height: 28px;
+    }
+  }
+  &__list{
+    font-weight: $font-medium;
+    list-style: none;
+    li {
+      padding-left: 2rem;
+      background-image: url(../assets/icons/chack-icon.svg);
+      background-position: 0 0;
+      background-size: 1.6rem 1.6rem;
+      background-repeat: no-repeat;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+.banner{
+  @media (max-width: 768px) {
+    h1{
+      font-size: 42px;
+    }
+  }
+  @media (max-width: 500px) {
+    h1{
+      font-size: 35px;
+    }
+  }
+  @media (max-width: 430px) {
+    h1{
+      font-size: 30px;
+      line-height: 35px;
+    }
+  }
+}

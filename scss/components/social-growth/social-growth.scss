@@ -1,0 +1,13 @@
+.social-growth{
+  padding: $block-margin 0;
+  background-color: $gray-bg-color;
+  & .title{
+    margin-bottom: 25px;
+  }
+  &__description{
+    gap: 15px;
+    p{
+      font-weight:$font-medium;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+.reviews{
+  @media (max-width: 724px) {
+    .carousel-control{
+      &-prev{
+        left: 0;
+      }
+      &-next{
+        right: 0;
+      }
+    }
+  }
+}

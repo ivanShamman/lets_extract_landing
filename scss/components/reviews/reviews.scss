@@ -1,0 +1,50 @@
+.reviews{
+  background-color:$gray-bg-color;
+  padding: 40px 0 60px;
+  .title{
+    margin-bottom: 33px;
+  }
+  &__card{
+    height: 100%;
+    position: relative;
+    padding: 27px;
+    background: $white-color;
+    border: 1px solid #CED7E2;
+    border-radius: 20px;
+    &-stars{
+      position: absolute;
+      top: 30px;
+      right: 30px;
+      z-index: 1;
+    }
+    &-person-company{
+      font-weight: $font-extra;
+    }
+    time{
+      font-size: 14px;
+      color: #545454;
+    }
+  }
+  .carousel-control{
+    &-prev{
+      left: -85px;
+      &-icon{
+        background-image: url("../assets/icons/carousel-arrow-left.svg");
+      }
+    }
+    &-next{
+      right: -85px;
+      &-icon{
+        background-image: url("../assets/icons/carousel-arrow-right.svg");
+      }
+    }
+    &-prev,
+    &-next{
+      &-icon{
+        $carousel-icon-size:54px;
+        width:$carousel-icon-size;
+        height:$carousel-icon-size ;
+      }
+    }
+  }
+}

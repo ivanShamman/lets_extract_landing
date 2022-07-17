@@ -1,0 +1,13 @@
+.team-chat{
+  margin: $block-margin 0;
+  .title{
+    margin-bottom: 23px;
+  }
+  p{
+    font-weight: $font-medium;
+  }
+  &__accent{
+    font-weight:$font-semibold;
+    color: $blue-color;
+  }
+}

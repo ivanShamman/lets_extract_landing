@@ -1,0 +1,12 @@
+.advantages{
+  margin: $block-margin 0;
+  &__list{
+    font-weight:$font-medium;
+    list-style-image: url(../assets/icons/blue-chack-icon.svg);
+    list-style-position: inside;
+
+    li:not(:last-child){
+      margin-bottom: 55px;
+    }
+  }
+}

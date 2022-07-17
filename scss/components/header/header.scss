@@ -1,0 +1,11 @@
+.header{
+  margin-bottom: 20px;
+  .navbar{
+    &-collapse{
+      justify-content: flex-end;
+    }
+    &-nav{
+      margin-right: 50px;
+    }
+  }
+}

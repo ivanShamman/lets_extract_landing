@@ -1,0 +1,12 @@
+.about{
+  @media (max-width: 1170px) and (min-width: 992px) {
+    &__content-card-description{
+      padding: 0;
+    }
+  }
+  @media (max-width: 992px) {
+    img{
+      width: 100%;
+    }
+  }
+}

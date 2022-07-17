@@ -1,0 +1,53 @@
+.footer{
+  margin-top: 40px;
+  a{
+    text-decoration: none;
+    color: $blue-color;
+    &:hover{
+      color:$blue-color;
+      transition:$transition;
+    }
+  }
+
+  &__top{
+   margin-bottom: 40px;
+    a{
+      color: $main-color;
+    }
+    ul{
+      text-transform: uppercase;
+      gap: 15px;
+      a:hover{
+        color: $blue-color;
+      }
+      button{
+        margin-left: 60px;
+      }
+    }
+  }
+
+  &__center{
+    border-top: 1px solid #CED7E2;
+    padding: 26px 0;
+    font-weight: $font-semibold;
+    span{
+      color: #545454;
+    }
+    &-link{
+      a{
+        color: #545454;
+        &:first-child:after{
+          content: "|";
+          margin: 0 5px;
+        }
+      }
+    }
+  }
+
+  &__bottom{
+    padding: 8px 0;
+    font-size: 14px;
+    color: $white-color;
+    background-color:$footer-dark-gray-color;
+  }
+}

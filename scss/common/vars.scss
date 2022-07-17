@@ -1,0 +1,58 @@
+$main-font-family:'Manrope', sans-serif;
+$logo-font-family:'Nunito',sans-serif;
+
+$main-font-size:16px;
+$font-xxl-size:40px;
+$font-xl-size:32px;
+$font-lg-size:20px;
+$font-md-size:18px;
+$font-sm-size:15px;
+
+$font-regular:400;
+$font-medium:500;
+$font-semibold:600;
+$font-bold:700;
+$font-extra:800;
+
+$main-color:#212121;
+$blue-color:#1E7CCF;
+$green-color:#1ECF7A;
+$orange-color:#ECAE10;
+$purple-color:#CF1E9D;
+$card-bg-color:#EEF1F4;
+$blue-bg-color:#1E7CCF;
+$gray-bg-color:#F2F7FD;
+$white-color:#FFFFFF;
+$footer-dark-gray-color:#333333;
+
+$transition:.5s;
+$block-margin:60px;
+
+.nav-item{
+  --bs-nav-link-font-size:#{$font-sm-size};
+  --bs-nav-link-color:#{$main-color};
+  --bs-nav-link-hover-color:#{#1E7CCF};
+}
+.btn{
+  --bs-btn-hover-color:#{$blue-bg-color};
+}
+.btn-primary{
+  --bs-btn-bg:#{$blue-bg-color};
+  --bs-btn-border-color:#{$blue-bg-color};
+  --bs-btn-hover-bg:#{$white-color};
+  --bs-btn-hover-border-color:#{$blue-bg-color};
+  --bs-btn-border-radius:250px;
+  --bs-btn-padding-x:38px;
+  --bs-btn-padding-y:10px;
+  --bs-btn-font-weight:#{$font-semibold};
+  --bs-btn-focus-box-shadow:none;
+}
+.btn-link{
+  --bs-btn-color:#{$main-color};
+}
+.dropdown-menu{
+  --bs-dropdown-min-width:2rem;
+  --bs-dropdown-link-hover-color:#{$blue-bg-color};
+  --bs-dropdown-link-hover-bg:#{$white-color}
+}
+

@@ -1,0 +1,18 @@
+.about{
+  margin: $block-margin 0;
+  .title{
+    margin-bottom: 32px;
+  }
+  &__content-card{
+    overflow: hidden;
+    border: 1px solid #CED7E2;
+    border-left: 0;
+    border-radius: 20px;
+    &-img{
+      overflow: hidden;
+    }
+    &-description{
+      padding: 15px;
+    }
+  }
+}

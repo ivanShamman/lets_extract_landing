@@ -1,0 +1,13 @@
+.customer-communication{
+  @media (max-width: 992px){
+    &__img{
+      padding-right: 0;
+    }
+  }
+  @media (max-width: 420px) {
+    &__title p{
+      font-size: $font-md-size;
+      line-height: 20px;
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.customer-communication{
+  margin: $block-margin 0;
+  &__img{
+    padding-right: 40px;
+  }
+  &__title{
+    margin-bottom: 20px;
+    h2{
+      margin-bottom: 15px;
+    }
+    p{
+      font-size: $font-lg-size;
+      font-weight:$font-semibold;
+    }
+  }
+  &__list{
+    font-weight:$font-medium;
+    list-style: none;
+    li {
+      padding-left: 2rem;
+      background-image: url(../assets/icons/blue-chack-icon.svg);
+      background-position: 0 0;
+      background-size: 1.6rem 1.6rem;
+      background-repeat: no-repeat;
+    }
+  }
+}
